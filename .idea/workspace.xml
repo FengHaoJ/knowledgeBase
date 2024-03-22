@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49c02de3-c089-47eb-8dcf-490bb8d29a30" name="Default Changelist" comment="全局初始化">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/Intercepter/JwtTokenUserInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/Intercepter/JwtTokenUserInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/KnowledgeBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/KnowledgeBaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/constant/MessageConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/context/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/context/BaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/domain/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/domain/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/domain/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/domain/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/domain/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/domain/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/exception/AccountNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/exception/AccountNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/json/JacksonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/json/JacksonObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/properties/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/properties/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aa/knowledgebase/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aa/knowledgebase/KnowledgeBaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/test/java/com/aa/knowledgebase/KnowledgeBaseApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="82e92c3855c2cdbfcf16431862dc7f8067b6c42e" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectId" id="2Z1LXOe2QTZx51oI34cXZiPSN0N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.48945785" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\knowledgeBase" />
+      <recent name="D:\JavaProject\knowledgeBase\kb-server" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aa.knowledgebase" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KnowledgeBaseApplication (1)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeBaseApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="kb-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aa.knowledgebase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aa.knowledgebase.KnowledgeBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="knowledgeBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aa.knowledgebase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aa.knowledgebase.KnowledgeBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.KnowledgeBaseApplication (1)" />
+        <item itemvalue="Spring Boot.KnowledgeBaseApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\18032\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49c02de3-c089-47eb-8dcf-490bb8d29a30" name="Default Changelist" comment="" />
+      <created>1701584679263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701584679263</updated>
+      <workItem from="1701584680475" duration="1445000" />
+      <workItem from="1701587862294" duration="1442000" />
+      <workItem from="1701589338476" duration="1163000" />
+      <workItem from="1701655663464" duration="895000" />
+      <workItem from="1701839854258" duration="600000" />
+      <workItem from="1702032056508" duration="744000" />
+      <workItem from="1702223234911" duration="48000" />
+      <workItem from="1710594611512" duration="2708000" />
+      <workItem from="1710739769310" duration="7241000" />
+      <workItem from="1711012327424" duration="5806000" />
+      <workItem from="1711019874396" duration="5666000" />
+      <workItem from="1711026036250" duration="275000" />
+      <workItem from="1711026325809" duration="5685000" />
+      <workItem from="1711096287358" duration="5341000" />
+      <workItem from="1711103009086" duration="72000" />
+      <workItem from="1711103091714" duration="129000" />
+      <workItem from="1711103229988" duration="760000" />
+      <workItem from="1711104002351" duration="495000" />
+      <workItem from="1711104514630" duration="165000" />
+      <workItem from="1711104693834" duration="352000" />
+      <workItem from="1711105086161" duration="35000" />
+      <workItem from="1711105132630" duration="687000" />
+      <workItem from="1711105859059" duration="155000" />
+      <workItem from="1711106040721" duration="366000" />
+    </task>
+    <task id="LOCAL-00001" summary="全局初始化">
+      <created>1711097302285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711097302285</updated>
+    </task>
+    <task id="LOCAL-00002" summary="创建子模块，未分发其它子模块">
+      <created>1711102671703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711102671703</updated>
+    </task>
+    <task id="LOCAL-00003" summary="创建子模块，未分发其它子模块">
+      <created>1711102701373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711102701373</updated>
+    </task>
+    <task id="LOCAL-00004" summary="创建子模块，未分发其它子模块">
+      <created>1711102867479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711102867479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="创建子模块，未分发其它子模块">
+      <created>1711102968394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711102968394</updated>
+    </task>
+    <task id="LOCAL-00006" summary="全局初始化">
+      <created>1711105781554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711105781554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="创建子模块，未分发其它子模块" />
+    <MESSAGE value="全局初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="全局初始化" />
+  </component>
+</project>
