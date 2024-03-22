@@ -25,7 +25,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="kb-common" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.10" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid-spring-boot-starter:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.2.1" level="project" />

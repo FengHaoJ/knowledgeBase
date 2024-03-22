@@ -1,5 +1,6 @@
 package com.aa.knowledgebase.Intercepter;
 
+
 import com.aa.knowledgebase.context.BaseContext;
 import com.aa.knowledgebase.properties.JwtProperties;
 import com.aa.knowledgebase.utils.JwtUtil;
@@ -20,6 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 @Component
 @Slf4j
 public class JwtTokenUserInterceptor implements HandlerInterceptor {
+
     @Autowired
     private JwtProperties jwtProperties;
 

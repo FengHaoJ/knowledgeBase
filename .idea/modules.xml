@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/kb-common/kb-common.iml" filepath="$PROJECT_DIR$/kb-common/kb-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/kb-server/kb-server.iml" filepath="$PROJECT_DIR$/kb-server/kb-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/knowledgeBase.iml" filepath="$PROJECT_DIR$/knowledgeBase.iml" />
     </modules>

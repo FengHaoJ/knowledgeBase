@@ -2,6 +2,7 @@ package com.aa.knowledgebase.config;
 
 
 import com.aa.knowledgebase.Intercepter.JwtTokenUserInterceptor;
+
 import com.aa.knowledgebase.json.JacksonObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
 
     @Autowired
     private JwtTokenUserInterceptor jwtTokenUserInterceptor;
+
 
     /**
      * 注册自定义拦截器
