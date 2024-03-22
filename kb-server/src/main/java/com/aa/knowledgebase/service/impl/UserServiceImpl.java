@@ -8,7 +8,6 @@ import com.aa.knowledgebase.mapper.UserMapper;
 import com.aa.knowledgebase.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.DigestUtils;
 
 
 @Service
