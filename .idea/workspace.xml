@@ -4,48 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49c02de3-c089-47eb-8dcf-490bb8d29a30" name="Default Changelist" comment="创建子模块，未分发">
-      <change afterPath="$PROJECT_DIR$/kb-common/kb-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kb-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="49c02de3-c089-47eb-8dcf-490bb8d29a30" name="Default Changelist" comment="创建子模块，将模块分发为kb-server和kb-common">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/exception/AccountExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/domain/dto/UserRegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-server/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/kb-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/kb-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/Intercepter/JwtTokenUserInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/Intercepter/JwtTokenUserInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/constant/MessageConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/config/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/context/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/context/BaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/exception/AccountNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/exception/AccountNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/exception/BaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/json/JacksonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/json/JacksonObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/properties/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/properties/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/domain/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/domain/dto/UserLoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/src/main/java/com/aa/knowledgebase/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/kb-common/src/main/java/com/aa/knowledgebase/utils/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/Intercepter/JwtTokenUserInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/Intercepter/JwtTokenUserInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/common/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/config/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/config/WebMvcConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/constant/MessageConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/context/BaseContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/controller/HelloController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/controller/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/controller/user/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/exception/AccountNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/exception/BaseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/json/JacksonObjectMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/properties/JwtProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/domain/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/classes/com/aa/knowledgebase/utils/JwtUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/target/kb-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/kb-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/kb-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/surefire-reports/TEST-com.aa.knowledgebase.KnowledgeBaseApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/surefire-reports/TEST-com.aa.knowledgebase.KnowledgeBaseApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kb-server/target/surefire-reports/com.aa.knowledgebase.KnowledgeBaseApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kb-server/target/surefire-reports/com.aa.knowledgebase.KnowledgeBaseApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/surefire-reports/TEST-com.aa.knowledgebase.KnowledgeBaseApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kb-server/target/surefire-reports/com.aa.knowledgebase.KnowledgeBaseApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +44,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="mapper.xml" />
       </list>
     </option>
   </component>
@@ -67,6 +58,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2Z1LXOe2QTZx51oI34cXZiPSN0N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -91,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.48945785" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -109,35 +103,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KnowledgeBaseApplication (1)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KnowledgeBaseApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="kb-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aa.knowledgebase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aa.knowledgebase.KnowledgeBaseApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="KnowledgeBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="knowledgeBase" />
+      <module name="kb-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.aa.knowledgebase.*" />
@@ -151,7 +119,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.KnowledgeBaseApplication (1)" />
         <item itemvalue="Spring Boot.KnowledgeBaseApplication" />
       </list>
     </recent_temporary>
@@ -198,7 +165,11 @@
       <workItem from="1711107892842" duration="198000" />
       <workItem from="1711108171117" duration="1455000" />
       <workItem from="1711109648900" duration="917000" />
-      <workItem from="1711110584975" duration="298000" />
+      <workItem from="1711110584975" duration="892000" />
+      <workItem from="1711183984049" duration="7174000" />
+      <workItem from="1711272321243" duration="2591000" />
+      <workItem from="1711274944642" duration="2109000" />
+      <workItem from="1711277575958" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="全局初始化">
       <created>1711097302285</created>
@@ -256,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711106488628</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="创建子模块，将模块分发为kb-server和kb-common">
+      <created>1711110966386</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711110966386</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +265,7 @@
     <MESSAGE value="创建子模块，未分发其它子模块" />
     <MESSAGE value="全局初始化" />
     <MESSAGE value="创建子模块，未分发" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建子模块，未分发" />
+    <MESSAGE value="创建子模块，将模块分发为kb-server和kb-common" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建子模块，将模块分发为kb-server和kb-common" />
   </component>
 </project>

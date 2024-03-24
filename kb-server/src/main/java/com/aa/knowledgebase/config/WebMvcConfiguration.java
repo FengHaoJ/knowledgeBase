@@ -44,6 +44,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         registry.addInterceptor(jwtTokenUserInterceptor)
                 .addPathPatterns("/user/**")
                 .excludePathPatterns("/user/users/login")
+                .excludePathPatterns("/user/users/register")
                 .excludePathPatterns("/user/shop/status");
     }
 
@@ -55,9 +56,9 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
     @Bean
     public Docket docket1() {
         ApiInfo apiInfo = new ApiInfoBuilder()
-                .title("苍穹外卖项目接口文档")
+                .title("软件知识库接口文档")
                 .version("2.0")
-                .description("苍穹外卖项目接口文档")
+                .description("软件知识库接口文档")
                 .build();
         Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .groupName("管理端接口")

@@ -3,7 +3,8 @@ package com.aa.knowledgebase.controller.user;
 
 
 import com.aa.knowledgebase.common.Result;
-import com.aa.knowledgebase.domain.dto.UserDTO;
+import com.aa.knowledgebase.domain.dto.UserLoginDTO;
+import com.aa.knowledgebase.domain.dto.UserRegisterDTO;
 import com.aa.knowledgebase.domain.po.User;
 import com.aa.knowledgebase.domain.vo.UserVO;
 
@@ -33,12 +34,20 @@ public class UserController {
     @Autowired
     private JwtProperties jwtProperties;
 
+    @PostMapping("/register")
+    @ApiOperation("用户注册")
+    public Result<User> register(@RequestBody UserRegisterDTO userRegisterDTO){
+        log.info("新用户注册");
+        User user = userService.userRegister(userRegisterDTO);
+        return Result.success(user);
+    }
+
 
     @PostMapping("/login")
     @ApiOperation("用户登录")
-    public Result<UserVO> login(@RequestBody UserDTO userDTO){
-        log.info("用户登录：{}",userDTO);
-        User user = userService.login(userDTO);
+    public Result<UserVO> login(@RequestBody UserLoginDTO userLoginDTO){
+        log.info("用户登录：{}", userLoginDTO);
+        User user = userService.login(userLoginDTO);
 
         // 登录成功后，生成jwt令牌
         Map<String,Object> claims = new HashMap<>();
@@ -56,5 +65,8 @@ public class UserController {
 
         return Result.success(userVO);
     }
+
+
+
 
 }

@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Data
 @ApiModel(description = "用户登录前端转送结果")
-public class UserDTO {
+public class UserLoginDTO {
 
     @ApiModelProperty("用户名")
     private String Username;

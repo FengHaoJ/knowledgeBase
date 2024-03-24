@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aa.knowledgebase.mapper.UserMapper">
+    <insert id="registerAccount" useGeneratedKeys="true" keyProperty="id">
+        insert into user (username, password, phone, create_time, update_time, status, permission)
+        values
+        (#{username}, #{password}, #{phone}, #{createTime}, #{updateTime}, #{status}, #{permission})
+    </insert>
+
+</mapper>

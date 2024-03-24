@@ -1,8 +1,9 @@
+D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\domain\dto\UserLoginDTO.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\domain\po\User.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\service\UserService.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\config\WebMvcConfiguration.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\controller\user\UserController.java
-D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\domain\dto\UserDTO.java
+D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\domain\dto\UserRegisterDTO.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\domain\vo\UserVO.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\KnowledgeBaseApplication.java
 D:\JavaProject\knowledgeBase\kb-server\src\main\java\com\aa\knowledgebase\mapper\UserMapper.java
